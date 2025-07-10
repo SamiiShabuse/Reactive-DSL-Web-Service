@@ -18,3 +18,18 @@
     - May adjust this number when necessary
 
 - Must learn something and document what I learn.
+
+## Project Breakdown
+
+### 1. Design a Domain-Specific Language (DSL)
+
+- Create a small `#lang` for defining event-driven routing logic.
+
+- Example
+
+```racket
+route GET "/temperature" → respond-temp
+route POST "/set" → handler
+```
+
+[Web Applications in Racket](https://docs.racket-lang.org/web-server/index.html)
